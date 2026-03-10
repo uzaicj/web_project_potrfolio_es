@@ -58,11 +58,26 @@
 /* ========== Media queries ========== */
 
 @media screen and (max-width: 320px) {
-  .footer__title {
-    font-size: 28px;
+
+  .footer__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
 
-  .footer__link { /*por qué el tamaño no cambia?*/
-    width: 24px;
+  .footer__link {
+    flex-shrink: 0;
   }
+
+  .footer__link a {
+    display: block;
+  }
+
+  .footer__links img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
 }

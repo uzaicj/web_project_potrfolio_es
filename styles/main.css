@@ -145,4 +145,8 @@
   .card__content {
     font-size: 16px;
   }
+
+  .card__footer { 
+    font-size: 12px;
+  }
 }
